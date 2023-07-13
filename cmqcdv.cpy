@@ -3,7 +3,7 @@
       **                  IBM MQSeries for Windows NT                 **
       **                                                              **
       **  COPYBOOK NAME:  CMQCDV                                      **
-      **                                                              **
+KSCHG1**  # ADDED 1 change here                                       **
       **  DESCRIPTION:    Channel Definition Structure                **
       **                                                              **
       ******************************************************************

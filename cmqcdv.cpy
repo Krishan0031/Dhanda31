@@ -160,7 +160,7 @@ KSCHG1**  # ADDED 1 change here                                       **
          15 MQCD-MCASECURITYID          PIC X(40) VALUE LOW-VALUES.
       **    Remote security identifier
          15 MQCD-REMOTESECURITYID       PIC X(40) VALUE LOW-VALUES.
- 
+KSCHG2** Comment for commit no 2 of file 
       ******************************************************************
       **  End of CMQCDV                                               **
       ******************************************************************

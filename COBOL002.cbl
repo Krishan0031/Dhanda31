@@ -69,6 +69,7 @@ KSCHG1* First change --> at 12:50 AM 7/14/23                         *
       ****************************************************************
       *                                                              *
       *                                                              *
+KSCHG2* Second change      Line 1     7/14/23                        *
       *                                                              *
       *   Exceptions signaled:  none                                 *
       *   Exceptions monitored: none                                 *
@@ -134,7 +135,7 @@ KSCHG1* First change --> at 12:50 AM 7/14/23                         *
           02 FILLER                         PIC X(1).
           02 TRIG-INFO.
            COPY CMQTMC2L.
-
+KSCHG2* Second change      Line 2     7/14/23                        *
       ****************************************************************
        PROCEDURE DIVISION.
        P0.
@@ -170,7 +171,7 @@ KSCHG1* First change --> at 12:50 AM 7/14/23                         *
            CALL "MQCONN"
             USING QM-NAME, HCONN,
             COMPLETION-CODE, CON-REASON.
-
+KSCHG2* Second change      Line 3     7/14/23                        *
       *      report reason and stop if it failed
            IF COMPLETION-CODE IS EQUAL TO MQCC-FAILED
              DISPLAY "MQCONN ended with reason code " CON-REASON

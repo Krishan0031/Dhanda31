@@ -121,7 +121,7 @@ KSCHG2* Second change      Line 1     7/14/23                        *
          02 INT-ATTR                 PIC S9(9) BINARY OCCURS 1 TIMES.
        01 CHAR-ATTR-LENGTH           PIC S9(9) BINARY VALUE 0.
        01 CHAR-ATTRS                 PIC X(100).
-
+KSCHG3 01 CW-KRS-VAR1-CHG3           PIC X(05).
       ** message is read into buffer; reply contains an extension
        01 REPLY.
          02 BUFFER                   PIC X(48).
